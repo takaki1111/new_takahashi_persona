@@ -52,7 +52,7 @@ def text_summary(prompt):
     temperature=0.8,
     max_tokens=100,
     top_p=1.0,
-    frequency_penalty=2,
+    frequency_penalty=1,
     presence_penalty=2,
     stop=["あなた:", "高橋:"]
     )
